@@ -1,0 +1,71 @@
+body{
+    background: red;
+}
+
+.wrapper{
+    background: yellow;
+    width: 100%;
+ 
+}
+
+header{
+    width: 100%;
+    height: 44px;
+    background: #ffffff;
+}
+
+.hero{
+    width: 100%;
+    height:477px;
+    background: salmon;
+}
+
+.articles{
+    width: 100%;
+    height:500px;
+    background: white;
+}
+
+.highlights{
+
+    width: 100%;
+    height: 200px;
+    background: purple;
+}
+.latest-news{
+    width: 100%;
+    height: 250px;
+    background: grey;
+}
+
+footer{
+    width: 100%;
+    height:150px;
+    background: blue;
+}
+
+.col-1{
+    width: 20%;
+    height: 44px;
+    background: green;
+    float: left;
+}
+
+.col-2{
+    width: 60%;
+    height: 44px;
+    background: lightgray;
+    float: left;
+    text-align: center;
+    color: #f6755e;
+
+}
+
+.col-3{
+    width: 20%;
+    height: 44px;
+    background: limegreen;
+    float: left;
+
+}
+
