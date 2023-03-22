@@ -35,7 +35,7 @@ console.log("a soma é: " + soma);
 }
 
 function fazAccaoDoBotao(){
-    alert("carreguei no botao");
+    //alert("carreguei no botao");
 
     var dado_inserido = document.getElementById('lista_de_numeros').value;
     console.log(dado_inserido);
@@ -45,5 +45,9 @@ function fazAccaoDoBotao(){
     console.log(dado_inserido_convertido);
 
     resultado = calculaMedia(dado_inserido_convertido);
-    alert(resultado);
+    //alert(resultado);
+    //escrever numa zona especifica da página
+    document.getElementById('zona-de-resultado').innerText= "A média é:"+resultado;
 }
+
+//"O hugo é um gajo \"temoso\" "
